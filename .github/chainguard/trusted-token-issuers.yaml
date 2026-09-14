@@ -1,0 +1,3 @@
+mode: enforce
+issuers:
+  - https://token.actions.githubusercontent.com
