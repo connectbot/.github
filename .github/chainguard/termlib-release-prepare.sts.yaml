@@ -1,0 +1,16 @@
+issuer: https://token.actions.githubusercontent.com
+audience: octo-sts.their.net
+subject: repo:connectbot/termlib:ref:refs/heads/main
+
+claim_pattern:
+  repository: "^connectbot/termlib$"
+  event_name: "^issues$"
+  job_workflow_ref: "^connectbot/release-action/\\.github/workflows/prepare-release\\.yml@refs/heads/main$"
+
+permissions:
+  contents: write
+  pull_requests: write
+  issues: write
+
+repositories:
+  - connectbot/termlib
