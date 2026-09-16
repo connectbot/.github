@@ -5,7 +5,7 @@ subject: repo:connectbot/termlib:ref:refs/heads/main
 claim_pattern:
   repository: "^connectbot/termlib$"
   event_name: "^issues$"
-  job_workflow_ref: "^connectbot/release-action/\\.github/workflows/release-publish\\.yml@refs/heads/main$"
+  job_workflow_ref: "^connectbot/release-action/\\.github/workflows/publish-release\\.yml@refs/heads/main$"
 
 permissions:
   contents: write
