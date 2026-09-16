@@ -12,4 +12,4 @@ permissions:
   issues: write
 
 repositories:
-  - connectbot/termlib
+  - termlib

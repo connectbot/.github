@@ -15,4 +15,4 @@ permissions:
   statuses: read
 
 repositories:
-  - connectbot/termlib
+  - termlib
