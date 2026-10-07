@@ -6,7 +6,7 @@ subject: repo:connectbot@5605419/cbtelnet@1406858044:ref:refs/heads/main
 claim_pattern:
   repository: "^connectbot/cbtelnet$"
   event_name: "^issues$"
-  job_workflow_ref: "^connectbot/release-action/\\.github/workflows/prepare-release\\.yml@refs/heads/main$"
+  job_workflow_ref: "^connectbot/release-action/\\.github/workflows/prepare-release\\.yml@2085a1d6887933a5e65e1007dd446bb07b3b6067$"
 
 permissions:
   contents: write
