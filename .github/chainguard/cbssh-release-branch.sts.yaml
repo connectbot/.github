@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/octo-sts/app/refs/heads/main/pkg/octosts/octosts.OrgTrustPolicy.json
 issuer: https://token.actions.githubusercontent.com
 audience: octo-sts.their.net
 subject: repo:connectbot/cbssh:ref:refs/heads/main
