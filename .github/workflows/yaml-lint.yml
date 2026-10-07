@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
+name: YAML lint
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  yaml-lint:
+    name: YAML format and syntax
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6
+        with:
+          python-version: '3.12'
+      - name: Install yamllint
+        run: python -m pip install yamllint==1.38.0
+      - name: Check YAML format and syntax
+        run: yamllint --strict --format github .
