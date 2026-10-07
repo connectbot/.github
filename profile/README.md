@@ -10,7 +10,7 @@ It has continued to grow and improve over the years and remains the **only open-
 ## Projects
 
 | Project | Description |
-|---------|-------------|
+| --------- | ------------- |
 | [connectbot](https://github.com/connectbot/connectbot) | The SSH Android app — a full-featured SSH client for Android |
 | [termlib](https://github.com/connectbot/termlib) | Terminal emulator library — an Android Compose component for embedding a terminal emulator in your app |
 | [cbssh](https://github.com/connectbot/cbssh) | ConnectBot SSH client library — a Kotlin SSH library for embedding SSH support in your Kotlin or Java app |
