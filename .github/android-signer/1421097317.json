@@ -18,7 +18,7 @@
     "repository_id": 1369420724,
     "workflow": ".github/workflows/android-finalize.yml"
   },
-  "policy_hash": "ccc295378c41775ac29c96c05eec94c0fec3d4c2b36ee74b48c848ae15dced5b",
+  "policy_hash": "7ddaebf00e9763f829af73b34ca86729c4523f07215cf7456134b8bff767c080",
   "profiles": {
     "google": {
       "hybrid_min_sdk": null,
@@ -55,8 +55,8 @@
   ],
   "repository": "connectbot/test-signer-1",
   "repository_id": 1421097317,
-  "revision": 11,
-  "signer_revision": "c42c1966e2b82d7d40e9fe7c190ef21191414263",
+  "revision": 12,
+  "signer_revision": "c9cb62006a961a9fde1e653c96947fd57c602409",
   "version": 3,
   "visibility": "public"
 }
