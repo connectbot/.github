@@ -10,7 +10,8 @@ Trusted workflows in `connectbot/actions` read this repository (immutable ID
 file and record the policy commit and digest in final provenance. Source builds
 cannot replace this policy through workflow inputs or source checkout contents.
 
-The builder and finalizer run from protected `android-signer-v1` in
+The attestor (`android-attest.yml`) and finalizer run from protected
+`android-signer-v1` in
 `connectbot/actions` (immutable ID 1369420724). Caller workflow paths identify
 eligible CI entry points; empty digest lists intentionally mean identity-based
 authorization. Exact executed workflow commits remain recorded in certificates,
@@ -23,3 +24,8 @@ provisioning. Export policies with the appliance's offline admin tool after key,
 certificate and lineage validation; do not hand-edit fingerprints or policy hashes.
 The test repository policy uses disposable keys. Its workflow cannot publish to
 Google Play; production Play access is scoped to repository ID 123235 and alpha.
+
+Application build instructions stay in each source repository. The shared
+attestor verifies a stable artifact handoff without executing application code.
+Changing Java, Gradle tasks, flavors, or output paths within that contract does
+not require an update to these policies.
