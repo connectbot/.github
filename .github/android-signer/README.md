@@ -13,8 +13,7 @@ cannot replace this policy through workflow inputs or source checkout contents.
 The attestor (`android-attest.yml`) and finalizer run from protected
 `android-signer-v1` in
 `connectbot/actions` (immutable ID 1369420724). Caller workflow paths identify
-eligible CI entry points; empty digest lists intentionally mean identity-based
-authorization. Exact executed workflow commits remain recorded in certificates,
+eligible CI entry points as a path allowlist. Exact executed workflow commits remain recorded in certificates,
 receipts and provenance. Ordinary source/caller edits and reviewed builder branch
 updates do not require changes here or on the VM.
 
@@ -29,3 +28,8 @@ Application build instructions stay in each source repository. The shared
 attestor verifies a stable artifact handoff without executing application code.
 Changing Java, Gradle tasks, flavors, or output paths within that contract does
 not require an update to these policies.
+
+Only version 3 trusted-workflow policies are supported. Builder and finalizer
+identities are mandatory; authorization mode switches, caller-file digests, and
+workflow/helper content pins are not accepted. The native signer and shared
+helpers must be updated together with these policy exports.
