@@ -8,7 +8,7 @@
     "repository": "connectbot/actions",
     "repository_id": 1369420724,
     "sha256": [],
-    "workflow": ".github/workflows/android-build.yml"
+    "workflow": ".github/workflows/android-attest.yml"
   },
   "callers": {
     ".github/workflows/ci.yml": []
@@ -24,7 +24,7 @@
     "sha256": [],
     "workflow": ".github/workflows/android-finalize.yml"
   },
-  "policy_hash": "b532a52d5b1f9536b5fd7377ed6107134f7859a71de4934d271e22d8c13daefd",
+  "policy_hash": "9fcc72e148625f3d26b299a5528b9d278382b7f18942ad81dc099852146bb968",
   "profiles": {
     "google": {
       "hybrid_min_sdk": null,
@@ -61,7 +61,7 @@
   ],
   "repository": "connectbot/test-signer-1",
   "repository_id": 1421097317,
-  "revision": 8,
+  "revision": 9,
   "signer_revision": "39b8c5393a0e10285905f7ceb5aea73ffa54e870",
   "version": 2,
   "visibility": "public"
