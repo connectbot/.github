@@ -1,30 +1,24 @@
 {
   "builder": {
-    "authorization": "workflow-identity",
-    "helpers": {},
     "refs": [
       "refs/heads/android-signer-v1"
     ],
     "repository": "connectbot/actions",
     "repository_id": 1369420724,
-    "sha256": [],
     "workflow": ".github/workflows/android-attest.yml"
   },
-  "callers": {
-    ".github/workflows/ci.yml": []
-  },
+  "callers": [
+    ".github/workflows/ci.yml"
+  ],
   "finalizer": {
-    "authorization": "workflow-identity",
-    "helpers": {},
     "refs": [
       "refs/heads/android-signer-v1"
     ],
     "repository": "connectbot/actions",
     "repository_id": 1369420724,
-    "sha256": [],
     "workflow": ".github/workflows/android-finalize.yml"
   },
-  "policy_hash": "9fcc72e148625f3d26b299a5528b9d278382b7f18942ad81dc099852146bb968",
+  "policy_hash": "2ee9ce55c10ed8f971413592fc8b4c7f95be5f1ad0dfea3e8d4aa3ff05b5b36f",
   "profiles": {
     "google": {
       "hybrid_min_sdk": null,
@@ -61,8 +55,8 @@
   ],
   "repository": "connectbot/test-signer-1",
   "repository_id": 1421097317,
-  "revision": 9,
-  "signer_revision": "39b8c5393a0e10285905f7ceb5aea73ffa54e870",
-  "version": 2,
+  "revision": 10,
+  "signer_revision": "fe6a2962b22e33deecb85cd0a738c1d6690fb7c1",
+  "version": 3,
   "visibility": "public"
 }
