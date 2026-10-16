@@ -1,0 +1,70 @@
+{
+  "builder": {
+    "authorization": "workflow-identity",
+    "helpers": {},
+    "refs": [
+      "refs/heads/android-signer-v1"
+    ],
+    "repository": "connectbot/actions",
+    "repository_id": 1369420724,
+    "sha256": [],
+    "workflow": ".github/workflows/android-build.yml"
+  },
+  "callers": {
+    ".github/workflows/ci-tags.yml": [],
+    ".github/workflows/ci.yml": []
+  },
+  "finalizer": {
+    "authorization": "workflow-identity",
+    "helpers": {},
+    "refs": [
+      "refs/heads/android-signer-v1"
+    ],
+    "repository": "connectbot/actions",
+    "repository_id": 1369420724,
+    "sha256": [],
+    "workflow": ".github/workflows/android-finalize.yml"
+  },
+  "policy_hash": "10fd32e04fe34e39762734fc69ca043381657bbc1b05a3883d40dadb5f239bb8",
+  "profiles": {
+    "google": {
+      "hybrid_min_sdk": null,
+      "keys": {
+        "classical": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "hybrid": null,
+        "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
+        "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
+      },
+      "lineage_sha256": "0c0c1ad58b77dcd3840ce7c6cd9f15ab93a4c9790c46df31ec5a777d3fdf0516",
+      "package": "org.connectbot",
+      "rotation_min_sdk": 33
+    },
+    "oss": {
+      "hybrid_min_sdk": null,
+      "keys": {
+        "classical": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "hybrid": null,
+        "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
+        "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
+      },
+      "lineage_sha256": "0c0c1ad58b77dcd3840ce7c6cd9f15ab93a4c9790c46df31ec5a777d3fdf0516",
+      "package": "org.connectbot",
+      "rotation_min_sdk": 33
+    }
+  },
+  "receipt_keys": {
+    "9750b8efa9854bae4e7297c77acc16d4423dd6880fddb383154762bd55bf02ef": "MIIEGzCCAoOgAwIBAgIUQ0qildjkbZ4LHXWFAb78Cm6YEOYwDQYJKoZIhvcNAQELBQAwHTEbMBkGA1UEAwwSQ29ubmVjdEJvdCByZWNlaXB0MB4XDTI2MTAxNTIyNDAyMFoXDTM2MTAxMjIyNDAyMFowHTEbMBkGA1UEAwwSQ29ubmVjdEJvdCByZWNlaXB0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAkPpjqm5pD7skM1G1Dsj68YYLAID82EVZWCzE8OeeFhSfv1KFjjhp/20ixYQbE+5zvDk8/qa9SXSAeNlkx4p1v5Q+Ap0AkpR2zVOzd1yNRFH1O5QbPCVhfDaarDn+YobCGQcjCmVSCPMwT7ZPSDxmMJ3peDh4l+x8/JLmgadHYBZ/F+4EAHNlChjp76QEpSuXz7u7zTVmDRf+8lik7DDTjnWNEkGy03mLXSea8PHtkMp30qyqseOLVfR/SFhIrVq539og+yJDuGcG0NuOnPsTwLqwMgQx1a1YmYyzd8/pWzxB2szs93PhxF17nAC+0yf6E7j6veo+Xya5kVKbmVeQbuI55re/CYV1JlbvP4PcbbnHvkJSWUo3UMpG1KudAyhf7tOpOnksmlJ7jlcwlmUkFfiVlawtH7QV/zfK5N8hmDMu5IfSmBGf5duQBO5R0zzIzBblnzSSlf053ImIZCaBow+tXd9qkvBGqqJ78rVMYryXakC/XnU7Eq9qp6gKQTU5AgMBAAGjUzBRMB0GA1UdDgQWBBQNpjsPxFThmA9LLJ2zC0CgHmba8TAfBgNVHSMEGDAWgBQNpjsPxFThmA9LLJ2zC0CgHmba8TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQBFmgXcm3yq1+RLHD+ORAaCZj2+8VXuuWaanDs4CKUetRG2XIGKy2HcS6Lam9wUoJTv1j1jDOuUiDBgEinmaWPLSVHa8OAxnK8fHn4mMdckxT5b95vLgNnMwbF+O8xCUn319mFqhSLsM0Bb9fMB5sd1XTVrewrDXAeTifWh3BJVMnQEM+Ow3RUvejhs8vCDMbA+Vd2U8qokk4v5pqHXZ3eLWZRy2zs3lRaS9okE2r6eVBrGAGNn4lHuP30z7d86UyxN894FhpoJX3GdKMx1iIgbkwPdGSPya5bcnSjQ64buaxZWPDn6LXB3nO4BacVYKmfTWWAqU3cdva8Nt2MdqlR1J5oPUOQWRMIwVR1WkWblvAsipr5tpiJNaFK8SzsGppWb9PMhPDCdjqe0h65/xhcwOrUTl+UvYpawd77syF8RLSWLIS5ro01ALEjS6BnbLVhvDt5EYEKDc1zR+fsFYtpu/IVJww1JQFE93T3RIkPnwRIFIthtZESIsgAEDOT3mVI="
+  },
+  "refs": [
+    "refs/heads/main",
+    "refs/tags/v*"
+  ],
+  "repository": "connectbot/connectbot",
+  "repository_id": 123235,
+  "revision": 1,
+  "signer_revision": "39b8c5393a0e10285905f7ceb5aea73ffa54e870",
+  "version": 2,
+  "visibility": "public"
+}
