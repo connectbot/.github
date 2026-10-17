@@ -19,31 +19,31 @@
     "repository_id": 1369420724,
     "workflow": ".github/workflows/android-finalize.yml"
   },
-  "policy_hash": "5835d6460eb7fd4c59d3bfe67fd266b52c28ccbd77f449da5df839c57aa335c8",
+  "policy_hash": "d4b7239731c66e1eedd81eebf2982769ff63797d62c6e318f3eb6813d7dcaf11",
   "profiles": {
     "google": {
       "hybrid_min_sdk": null,
       "keys": {
-        "classical": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "classical": "d24913b692db31a929cd30ae8618df97718882b6eaa1ed6e124bc43d028e7fbe",
         "hybrid": null,
         "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
         "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
         "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
       },
-      "lineage_sha256": "0c0c1ad58b77dcd3840ce7c6cd9f15ab93a4c9790c46df31ec5a777d3fdf0516",
+      "lineage_sha256": "cc39d1eebcec803f3b42116eba8d2cf88d7ba150adc9235309f596be443c8955",
       "package": "org.connectbot",
       "rotation_min_sdk": 33
     },
     "oss": {
       "hybrid_min_sdk": null,
       "keys": {
-        "classical": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "classical": "d24913b692db31a929cd30ae8618df97718882b6eaa1ed6e124bc43d028e7fbe",
         "hybrid": null,
         "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
         "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
         "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
       },
-      "lineage_sha256": "0c0c1ad58b77dcd3840ce7c6cd9f15ab93a4c9790c46df31ec5a777d3fdf0516",
+      "lineage_sha256": "cc39d1eebcec803f3b42116eba8d2cf88d7ba150adc9235309f596be443c8955",
       "package": "org.connectbot",
       "rotation_min_sdk": 33
     }
@@ -57,7 +57,7 @@
   ],
   "repository": "connectbot/connectbot",
   "repository_id": 123235,
-  "revision": 5,
+  "revision": 7,
   "signer_revision": "c9cb62006a961a9fde1e653c96947fd57c602409",
   "version": 3,
   "visibility": "public"
