@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "asset_prefix": "ConnectBot",
+  "primary_profile": "google",
+  "play": {
+    "profile": "google",
+    "project": "api-4664730880327298161-873945",
+    "rules": [
+      {
+        "ref": "refs/heads/main",
+        "track": "alpha"
+      },
+      {
+        "ref": "refs/tags/v1\\.11\\.(?P<patch>[0-9]+)",
+        "track": "beta",
+        "version_code": {
+          "base": 11100000,
+          "multiplier": 1000,
+          "group": "patch",
+          "min": 0,
+          "max": 49
+        }
+      },
+      {
+        "ref": "refs/tags/v(?!1\\.11\\.)[0-9]+\\.[0-9]+\\.[0-9]+",
+        "track": "alpha"
+      }
+    ]
+  }
+}

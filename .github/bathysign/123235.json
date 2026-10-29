@@ -1,0 +1,75 @@
+{
+  "builder": {
+    "commit": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
+    "refs": [
+      "refs/tags/v0.2.2"
+    ],
+    "repository": "kruton/bathysign",
+    "repository_id": 1436515323,
+    "workflow": ".github/workflows/bathysign-attest.yml",
+    "workflow_digest": "1ad71f43999b222f5b40beaa2e7628312e625b28"
+  },
+  "callers": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/ci-tags.yml"
+  ],
+  "finalizer": {
+    "commit": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
+    "refs": [
+      "refs/tags/v0.2.2"
+    ],
+    "repository": "kruton/bathysign",
+    "repository_id": 1436515323,
+    "workflow": ".github/workflows/bathysign-finalize.yml",
+    "workflow_digest": "1ad71f43999b222f5b40beaa2e7628312e625b28"
+  },
+  "policy_hash": "169581b92731605cdc423a18a8efa18901b47782ac81b6f4e42d2d7bc3f1528a",
+  "profiles": {
+    "google": {
+      "hybrid_min_sdk": null,
+      "keys": {
+        "classical": "d24913b692db31a929cd30ae8618df97718882b6eaa1ed6e124bc43d028e7fbe",
+        "hybrid": null,
+        "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
+        "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
+      },
+      "lineage_sha256": "cc39d1eebcec803f3b42116eba8d2cf88d7ba150adc9235309f596be443c8955",
+      "package": "org.connectbot",
+      "rotation_min_sdk": 33
+    },
+    "oss": {
+      "hybrid_min_sdk": null,
+      "keys": {
+        "classical": "d24913b692db31a929cd30ae8618df97718882b6eaa1ed6e124bc43d028e7fbe",
+        "hybrid": null,
+        "original": "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f",
+        "transparency": "909e650add6ddce32b2307d5aa141f8cdb1bdf455d89388b2f53f8c30fdb0c61",
+        "upload": "734c431bf9cceb91c4f275618ccb63a529bc59544d5f642db18ecfbdec98a7a0"
+      },
+      "lineage_sha256": "cc39d1eebcec803f3b42116eba8d2cf88d7ba150adc9235309f596be443c8955",
+      "package": "org.connectbot",
+      "rotation_min_sdk": 33
+    }
+  },
+  "receipt_keys": {
+    "9750b8efa9854bae4e7297c77acc16d4423dd6880fddb383154762bd55bf02ef": "MIIEGzCCAoOgAwIBAgIUQ0qildjkbZ4LHXWFAb78Cm6YEOYwDQYJKoZIhvcNAQELBQAwHTEbMBkGA1UEAwwSQ29ubmVjdEJvdCByZWNlaXB0MB4XDTI2MTAxNTIyNDAyMFoXDTM2MTAxMjIyNDAyMFowHTEbMBkGA1UEAwwSQ29ubmVjdEJvdCByZWNlaXB0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAkPpjqm5pD7skM1G1Dsj68YYLAID82EVZWCzE8OeeFhSfv1KFjjhp/20ixYQbE+5zvDk8/qa9SXSAeNlkx4p1v5Q+Ap0AkpR2zVOzd1yNRFH1O5QbPCVhfDaarDn+YobCGQcjCmVSCPMwT7ZPSDxmMJ3peDh4l+x8/JLmgadHYBZ/F+4EAHNlChjp76QEpSuXz7u7zTVmDRf+8lik7DDTjnWNEkGy03mLXSea8PHtkMp30qyqseOLVfR/SFhIrVq539og+yJDuGcG0NuOnPsTwLqwMgQx1a1YmYyzd8/pWzxB2szs93PhxF17nAC+0yf6E7j6veo+Xya5kVKbmVeQbuI55re/CYV1JlbvP4PcbbnHvkJSWUo3UMpG1KudAyhf7tOpOnksmlJ7jlcwlmUkFfiVlawtH7QV/zfK5N8hmDMu5IfSmBGf5duQBO5R0zzIzBblnzSSlf053ImIZCaBow+tXd9qkvBGqqJ78rVMYryXakC/XnU7Eq9qp6gKQTU5AgMBAAGjUzBRMB0GA1UdDgQWBBQNpjsPxFThmA9LLJ2zC0CgHmba8TAfBgNVHSMEGDAWgBQNpjsPxFThmA9LLJ2zC0CgHmba8TAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQBFmgXcm3yq1+RLHD+ORAaCZj2+8VXuuWaanDs4CKUetRG2XIGKy2HcS6Lam9wUoJTv1j1jDOuUiDBgEinmaWPLSVHa8OAxnK8fHn4mMdckxT5b95vLgNnMwbF+O8xCUn319mFqhSLsM0Bb9fMB5sd1XTVrewrDXAeTifWh3BJVMnQEM+Ow3RUvejhs8vCDMbA+Vd2U8qokk4v5pqHXZ3eLWZRy2zs3lRaS9okE2r6eVBrGAGNn4lHuP30z7d86UyxN894FhpoJX3GdKMx1iIgbkwPdGSPya5bcnSjQ64buaxZWPDn6LXB3nO4BacVYKmfTWWAqU3cdva8Nt2MdqlR1J5oPUOQWRMIwVR1WkWblvAsipr5tpiJNaFK8SzsGppWb9PMhPDCdjqe0h65/xhcwOrUTl+UvYpawd77syF8RLSWLIS5ro01ALEjS6BnbLVhvDt5EYEKDc1zR+fsFYtpu/IVJww1JQFE93T3RIkPnwRIFIthtZESIsgAEDOT3mVI="
+  },
+  "receipt_namespace": "bathysign",
+  "refs": [
+    "refs/heads/main",
+    "refs/tags/v*"
+  ],
+  "repository": "connectbot/connectbot",
+  "repository_id": 123235,
+  "revision": 9,
+  "signer_revision": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
+  "trust_authority": {
+    "authority": "sigstore-public",
+    "bootstrap_sha256": "73747011d0857ada15479a16c4cae0f3ed03aac698b523b97e1de314ac9d9ca8",
+    "epoch": "1f0cdea66527502e6d73f338da7ffcbf661bd1a8b09cc2710d841f33cf12b119",
+    "target": "trusted_root.json"
+  },
+  "version": 4,
+  "visibility": "public"
+}
