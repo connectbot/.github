@@ -1,28 +1,28 @@
 {
   "builder": {
-    "commit": "c3fb8d6daf61699339cf9eb756f9e92ce05e21b1",
+    "commit": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
     "refs": [
-      "refs/tags/v0.2.1"
+      "refs/tags/v0.2.2"
     ],
     "repository": "kruton/bathysign",
     "repository_id": 1436515323,
     "workflow": ".github/workflows/bathysign-attest.yml",
-    "workflow_digest": "8066ea66da95ad852a66af617ce02ba7e03d9784"
+    "workflow_digest": "1ad71f43999b222f5b40beaa2e7628312e625b28"
   },
   "callers": [
     ".github/workflows/ci.yml"
   ],
   "finalizer": {
-    "commit": "c3fb8d6daf61699339cf9eb756f9e92ce05e21b1",
+    "commit": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
     "refs": [
-      "refs/tags/v0.2.1"
+      "refs/tags/v0.2.2"
     ],
     "repository": "kruton/bathysign",
     "repository_id": 1436515323,
     "workflow": ".github/workflows/bathysign-finalize.yml",
-    "workflow_digest": "8066ea66da95ad852a66af617ce02ba7e03d9784"
+    "workflow_digest": "1ad71f43999b222f5b40beaa2e7628312e625b28"
   },
-  "policy_hash": "2412a90d2e66b53370faacd7671d14d02956b2065e143f17441b7f92e55159be",
+  "policy_hash": "0084a49d22bd477e5e07d610b7f11b139a78c652e8b813d4b1c78ab4ded3e791",
   "profiles": {
     "google": {
       "hybrid_min_sdk": null,
@@ -60,8 +60,8 @@
   ],
   "repository": "connectbot/test-signer-1",
   "repository_id": 1421097317,
-  "revision": 14,
-  "signer_revision": "c3fb8d6daf61699339cf9eb756f9e92ce05e21b1",
+  "revision": 15,
+  "signer_revision": "86904a7c76bdc1dfd96f43dc7abd1d545e9232c3",
   "trust_authority": {
     "authority": "sigstore-public",
     "bootstrap_sha256": "73747011d0857ada15479a16c4cae0f3ed03aac698b523b97e1de314ac9d9ca8",
