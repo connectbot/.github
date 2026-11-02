@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/octo-sts/app/refs/heads/main/pkg/octosts/octosts.OrgTrustPolicy.json
+issuer: https://token.actions.githubusercontent.com
+audience: octo-sts.their.net
+subject: repo:connectbot@5605419/cbzmodem@1442515253:ref:refs/heads/main
+
+claim_pattern:
+  repository: "^connectbot/cbzmodem$"
+  event_name: "^issues$"
+  job_workflow_ref: "^connectbot/actions/\\.github/workflows/release-branch\\.yml@9b826116f0d49329fbe10985a5abdfa49562f0a0$"
+
+permissions:
+  contents: write
+  issues: write
+
+repositories:
+  - cbzmodem
